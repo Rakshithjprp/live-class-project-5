@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,700&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap');
+
+
+/* --------------------body---------------------- */
+
+body{
+    background-color: #000000;
+   color: aliceblue;
+}
+
+/* container */
+
+.container {
+    width: 100%;
+   
+    
+  }
+  /* Navbar */
+
+  
+  .logo {
+    float: left;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 76px;
+    border-right: 2px solid #ffffff;
+    padding-right: 30px;
+    
+    
+  }
+
+  .list-item {
+    float: left;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 21px;
+    top: 38px;
+    left: 300px;
+    list-style: none;
+    font-family: montserrat;
+    cursor: pointer;
+  }
+
+
+  .button-small {
+    position: relative;
+    float: right;
+    top: 30px;
+    right: 60px;
+    background-color: #BA0CC5;
+    font-size: 20px;
+    padding: .6em 1.5em;
+    font-family: montserrat;
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+    border-radius: 12px;
+    cursor: grab;
+  }
+
+.hero{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 777px;
+   
+    top: 140px;
+    
+}
+
+.hero-heading{
+    position: absolute;
+    float: left;
+    top: 100px;
+    left: 460px;
+    font-size: 90px;  
+    font-family: montserrat;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-description{
+    position: absolute;
+    float: right;
+    top: 360px;
+    left: 540px;
+    font-size: 34px;  
+    font-family: montserrat;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.button-large {
+    position: absolute;
+    float: left;
+    top: 600px;
+    left: 730px;
+    background-color: #BA0CC5;
+    font-size: 32px;
+    padding: 0.8em 0.8em;
+    font-family: montserrat;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: grab;
+  
+  }
+
+
+ 
+
